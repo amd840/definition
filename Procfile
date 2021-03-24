@@ -1,1 +1,1 @@
-web: python manage.py collectstatic --no-input; gunicorn kfupmharaj.wsgi --log-file - --log-level debug
+web: python Main.py runserver
